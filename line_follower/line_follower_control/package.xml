@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>line_follower_control</name>
+  <version>0.0.1</version>
+  <description>Motor control utilities for RDK X5 differential drive line follower.</description>
+  <maintainer email="maintainer@example.com">RDK Team</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pyserial</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
